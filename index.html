@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="./style.css" />
 </head>
 
-<body class="sm:w-[100%] md:w-[90%] lg:w-[85%] mx-auto">
+<body>
     <!-- Header -->
-    <div>
+    <div class="sm:w-[100%] md:w-[90%] lg:w-[85%] mx-auto">
         <header class="flex items-center justify-between px-6 py-4">
             <!-- Logo -->
             <div class="flex items-center gap-2">
@@ -58,7 +58,7 @@
         </section>
     </div>
     <!-- our plants section -->
-    <div class="mx-auto">
+    <div class="mx-auto sm:w-[100%] md:w-[90%] lg:w-[85%]">
         <h2 class="text-3xl md:text-5xl font-semibold mb-2 noto-serif text-center">
             <span class="text-[#E95A08] font-bold">Our</span>
             <span">Plants</span>
@@ -146,7 +146,8 @@
         </div>
     </div>
     <!-- plant lover -->
-    <div class="flex flex-col md:flex-row items-center justify-between px-6 py-10 md:py-20 noto-serif relative">
+    <div
+        class="flex flex-col md:flex-row items-center justify-between px-6 py-10 md:py-20 noto-serif relative sm:w-[100%] md:w-[90%] lg:w-[85%] mx-auto">
         <div class="relative">
             <img src="./assets/flower-store.png" alt="" />
             <div>
@@ -180,7 +181,7 @@
         </div>
     </div>
     <!-- deals -->
-    <div class="mx-auto text-center mb-20">
+    <div class="mx-auto text-center mb-20 noto-serif sm:w-[100%] md:w-[90%] lg:w-[85%]">
         <h2 class="text-3xl md:text-5xl font-semibold mb-2 noto-serif text-center">
             <span class="text-[#E95A08] font-bold">Leatest</span>
             <span">Deals</span>
@@ -195,8 +196,7 @@
                 <div class="flex flex-col gap-4">
                     <!-- Card 1 -->
                     <div class="relative rounded-xl overflow-hidden h-40">
-                        <img src="./assets/deal-bloom.png" alt="Bloom Plant"
-                            class="w-full h-full object-cover" />
+                        <img src="./assets/deal-bloom.png" alt="Bloom Plant" class="w-full h-full object-cover" />
                         <div
                             class="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black/40">
                             <p class="text-sm md:text-base font-semibold">60% Off | Bloom Plant</p>
@@ -207,8 +207,7 @@
 
                     <!-- Card 2 -->
                     <div class="relative rounded-xl overflow-hidden h-40">
-                        <img src="./assets/deal-ana.png" alt="Ana Plant"
-                            class="w-full h-full object-cover" />
+                        <img src="./assets/deal-ana.png" alt="Ana Plant" class="w-full h-full object-cover" />
                         <div
                             class="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-white text-center bg-black/40">
                             <p class="text-sm md:text-base font-semibold">30% Off | Ana Plant</p>
@@ -221,8 +220,7 @@
                 <!-- Right Column: Big Card -->
                 <div class="md:col-span-2">
                     <div class="relative rounded-xl overflow-hidden md:h-[21rem] sm:h-[10px]">
-                        <img src="./assets/deal-zabo.png" alt="Zabo Plant"
-                            class="w-full h-full object-cover" />
+                        <img src="./assets/deal-zabo.png" alt="Zabo Plant" class="w-full h-full object-cover" />
                         <div
                             class="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-white text-center bg-black/40">
                             <p class="text-xl md:text-3xl font-bold">25% Off | Zabo Plant</p>
@@ -235,6 +233,22 @@
         </div>
 
     </div>
+    <!-- join -->
+    <div
+        class="mx-auto inter bg-[url('./assets/news-letter-bg.png')] bg-cover bg-left bg-no-repeat w-full text-center my-20">
+        <div class="py-10 px-6 md:px-20 md:py-20">
+            <div class="py-10"> 
+                <h1 class="noto-serif text-white font-bold text-3xl md:text-5xl pt-20 pb-10">Join the colorful Bunch</h1>
+            <div class="pb-20">
+                <span><input type="text" placeholder="write email"
+                        class="w-full md:w-[60%] px-4 py-3 text-gray-800" /></span><span><button
+                        class="bg-[#E95A08] text-white px-6 py-3 hover:bg-orange-700 transition duration-300">
+                        Subscribe </button></span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
 </body>
 
 </html>
